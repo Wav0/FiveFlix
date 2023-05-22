@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Font-FiveFlix";
+    src: url(./asset/font/MerriweatherSans-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #101010;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #555555;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(58, 58, 58);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(44, 44, 44);
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: "Font-FiveFlix";
+}
+nav {
+    background-color: rgb(19, 19, 19);
+}
+nav .prt-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .prt-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 1rem;
+    margin: 0px 20px;
+    
+} 
+nav .prt-nav a {
+    color: white;
+    text-decoration: none;
+}
+nav .prt-nav img {
+    margin: 0px 20px;
+}
+
+/* provisoire  */
+
+h1 {
+    text-align: center;
+    margin-top: 400px;
+}
